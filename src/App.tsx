@@ -4,10 +4,6 @@ import { Counter } from './Counter';
 const App: React.FC = () => {
   return (
     <div className="App">
-        {/* <TextField text='hello' person={{firstName: 'bob', lastName: 'McDungus'}}
-        handleChange={e => {
-          e.target.value;
-        }}/> */}
         <Counter>
           {
             (count, setCount) => (
