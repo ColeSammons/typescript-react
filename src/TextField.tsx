@@ -15,7 +15,7 @@ interface Props {
     handleChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 };
 
-//FC stands for function component. Stating the type is component.....
+//FC stands for function component. Stating the type is component......
 //identifying what props should be passed in with the interface.
 export const TextField: React.FC<Props> = ({ handleChange }) => {
     //can define what type
